@@ -1,7 +1,7 @@
 <?php
 	include_once('include/db_tools.php');
 	db_open();
-	
+
 	define( "AUTH_SALT", "0p9o8i7u6y" );
 	define( "AUTH_EMAIL_FIELD", "email" );
 	define( "AUTH_PASSWORD_FIELD", "password" );
